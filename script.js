@@ -53,7 +53,7 @@ function lishow(j){
     var opt = JSON.parse(window.localStorage.getItem('list'));
     var  txt = opt[j].name;
     var b =  JSON.parse(window.localStorage.getItem(txt))
-    document.getElementById('lilab').innerHTML = 'Your list view of '+txt+'<span class="fa fa-trash f-r" style="color: red" onclick="deletelist('+j+')"></span>  ';
+    document.getElementById('lilab').innerHTML = 'Your list view of '+txt+'<span class="fa fa-trash f-r" style="font-size: 35px;color: red;" onclick="deletelist('+j+')"></span><br><br>  ';
     if( b == undefined){
       var listall = []
   }else{
