@@ -38,7 +38,7 @@ function showopt(){
     var txt = '';
     var i = 0;
     for(var i = 0; i < opt.length; i++){
-        txt += '<button class="btn btn-primary" onclick="lishow('+i+')">'+opt[i].name+'</button> &nbsp'
+        txt += '<button class="btn btn-primary b-mar" onclick="lishow('+i+')">'+opt[i].name+'</button>'
     }
     document.getElementById('listall').innerHTML = txt;
     document.getElementById('editli').style.display = 'none';
