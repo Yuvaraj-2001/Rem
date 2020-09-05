@@ -6,6 +6,7 @@ function add(){
 }
 
 function savel(){
+ var q = JSON.parse(window.localStorage.getItem('list'));
   var n =  document.getElementById('name').value;
    if(q == undefined){
         var listall = []
